@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft Mobile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff0099, #493240);
+            font-family: Arial, sans-serif;
+        }
+        #playButton {
+            padding: 20px 40px;
+            font-size: 24px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #playButton:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <button id="playButton" onclick="openGame()">Play!</button>
+
+    <script>
+        function openGame() {
+            window.location.href = 'eaglercraft.html'; // Update this line
+        }
+    </script>
+</body>
+</html>
